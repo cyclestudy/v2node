@@ -12,6 +12,6 @@ wget -N https://raw.githubusercontent.com/cyclestudy/v2node/master/script/instal
 
 ## 构建
 ``` bash
-GOEXPERIMENT=jsonv2 go build -v -o build_assets/v2node -trimpath -ldflags "-X 'github.com/wyx2685/v2node/cmd.version=$version' -s -w -buildid="
+GOEXPERIMENT=jsonv2 go build -v -o build_assets/v2node -trimpath -ldflags "-X 'github.com/cyclestudy/v2node/cmd.version=$version' -s -w -buildid="
 ```
 
